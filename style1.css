@@ -1,0 +1,74 @@
+body {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #000000;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #f8b01d;
+  }
+  
+  .navbar-brand small {
+    color: white;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .info-card i {
+    font-size: 2rem;
+    color: #000000;
+  }
+  
+  footer a {
+    color: #000000;
+  }
+  
+  footer a:hover {
+    color: #f8b01d;
+  }
+  
+    .text-yellow { color: #f8b01d; }
+    .bg-main { background-color: #000000; }
+    .btn-cart {
+      background-color: #f8b01d;
+      color: #000;
+      font-weight: bold;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+    }
+    .btn-cart:hover {
+      background-color: #e0a10d;
+    }
+    .product-img {
+      max-height: 200px;
+      object-fit: contain;
+      margin: 0 auto;
+    }
+    .product-card {
+      background-color: #fff;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .brand-logo {
+      font-family: 'Anton', sans-serif;
+      font-size: 2rem;
+      color: #f8b01d;
+    }
+    .social-icon {
+      font-size: 1.5rem;
+      margin: 0 0.75rem;
+      color: #000;
+      transition: color 0.3s;
+    }
+    .social-icon:hover {
+      color: #f8b01d;
+    }

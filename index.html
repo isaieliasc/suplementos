@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MUSCLE-4U - Lo mejor para tu salud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Anton', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-black">
+  <!-- Navbar -->
+  <nav class="bg-[#000000] text-white sticky top-0 z-50">
+    <div class="container mx-auto flex flex-wrap items-center justify-between py-4 px-4">
+      <a href="#" class="text-[#f8b01d] font-bold text-xl leading-tight">
+        MUSCLE-4U<br /><small class="text-white text-sm">SUPLEMENTOS</small>
+      </a>
+      <button class="text-white md:hidden" id="menu-toggle">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+        <ul class="flex flex-col md:flex-row md:space-x-6 mt-4 md:mt-0">
+          <li><a href="#" class="text-[#f8b01d] hover:underline">Inicio</a></li>
+          <li><a href="#" class="text-[#f8b01d] hover:underline">Categorías</a></li>
+          <li><a href="#" class="text-[#f8b01d] hover:underline">Pedidos</a></li>
+          <li><a href="#" class="text-[#f8b01d] hover:underline">Nosotros</a></li>
+          <li><a href="#" class="text-[#f8b01d] hover:underline">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="py-10">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 text-center md:text-left mb-6 md:mb-0">
+          <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">¡TENEMOS LO MEJOR PARA TU SALUD Y TUS OBJETIVOS!</h2>
+          <button class="bg-[#000000] text-[#f8b01d] px-6 py-2 rounded hover:bg-gray-900 transition">Ver categorías</button>
+        </div>
+        <div class="md:w-1/2">
+          <img src="https://i.pinimg.com/736x/11/29/72/1129720092bf2fa21a2624dcab5f8bab.jpg" class="rounded-2xl shadow-lg mx-auto" alt="Fitness" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos -->
+  <section class="container mx-auto my-10 px-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div class="bg-gray-500 rounded-xl p-2">
+        <img src="https://i.pinimg.com/736x/fe/e5/47/fee547ff3d75ac021be84375fb586987.jpg" class="rounded-xl shadow-lg" alt="Producto 1" />
+      </div>
+      <div class="bg-[#000000] rounded-xl p-2">
+        <img src="https://i.pinimg.com/474x/c2/a6/48/c2a64859cab90f2169321ce7fd90d2f2.jpg" class="rounded-xl shadow-lg" alt="Producto 2" />
+      </div>
+      <div class="bg-gray-800 rounded-xl p-2">
+        <img src="https://i.pinimg.com/736x/30/77/cd/3077cda2ed96cf8f49f3d177ae29cf5f.jpg" class="rounded-xl shadow-lg" alt="Producto 3" />
+      </div>
+      <div class="bg-gray-500 rounded-xl p-2">
+        <img src="https://i.pinimg.com/736x/f4/7a/80/f47a804568f8f6935d1c8a3a418fec68.jpg" class="rounded-xl shadow-lg" alt="Producto 4" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="py-10 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white text-center p-6 rounded-lg shadow info-card">
+          <div class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-bold mb-2">Visítanos</h3>
+          <p class="text-gray-600">Av. nueva imagen #0000<br />Planta alta</p>
+        </div>
+        <div class="bg-white text-center p-6 rounded-lg shadow info-card">
+          <div class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-envelope fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-bold mb-2">Contacto</h3>
+          <p class="text-gray-600">muscle4u@gmail.com</p>
+        </div>
+        <div class="bg-white text-center p-6 rounded-lg shadow info-card">
+          <div class="bg-blue-600 text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+            <i class="fas fa-clock fa-2x"></i>
+          </div>
+          <h3 class="text-lg font-bold mb-2">Horario</h3>
+          <p class="text-gray-600">De lunes a sábado<br />11:00 a 20:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Redes Sociales -->
+  <section class="py-10 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold mb-6">Síguenos en nuestras redes</h2>
+      <div class="flex justify-center space-x-6 mb-6">
+        <a href="#" class="text-[#000000] hover:text-[#f8b01d] text-xl"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-[#000000] hover:text-[#f8b01d] text-xl"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-[#000000] hover:text-[#f8b01d] text-xl"><i class="fab fa-tiktok"></i></a>
+        <a href="#" class="text-[#000000] hover:text-[#f8b01d] text-xl"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="floating">
+        <h3 class="text-xl font-bold">MUSCLE4U</h3>
+        <h4 class="text-gray-600">MUSCLE4UMX</h4>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    document.getElementById("menu-toggle").addEventListener("click", function () {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>
